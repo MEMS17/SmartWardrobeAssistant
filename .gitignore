@@ -87,3 +87,7 @@ node_modules/
 android/app/build/
 android/build/
 ios/build/
+
+# .gitignore
+.expo/
+.expo-shared/
