@@ -331,7 +331,7 @@ L'IA **respecte strictement** cette structure et les contraintes:
 
 Fichier `.env`:
 ```
-GEMINI_API_KEY=AQ.Ab8RN6Jk1UJrJ1vBEqJUacv8LA-PoOaLCRWfVJ1-dPDuMy-nPQ
+GEMINI_API_KEY=YOUR_API_KEY
 GEMINI_API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
 ```
 
@@ -346,7 +346,7 @@ GEMINI_API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-fl
 ```bash
 curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent" \
   -H 'Content-Type: application/json' \
-  -H 'X-goog-api-key: AQ.Ab8RN6Jk1UJrJ1vBEqJUacv8LA-PoOaLCRWfVJ1-dPDuMy-nPQ' \
+  -H 'X-goog-api-key: YOUR_API_KEY' \
   -X POST \
   -d '{
     "contents": [
