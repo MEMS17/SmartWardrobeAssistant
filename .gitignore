@@ -2,6 +2,13 @@
 #
 .DS_Store
 
+# Environment variables - NEVER COMMIT THESE FILES
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Xcode
 #
 build/
@@ -47,6 +54,7 @@ yarn-error.log
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
+
 
 **/fastlane/report.xml
 **/fastlane/Preview.html
